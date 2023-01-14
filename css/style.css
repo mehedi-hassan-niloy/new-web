@@ -1,0 +1,269 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header{
+    background: #FEFEFE;
+    
+}
+.top{
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 120px;
+    
+
+    
+}
+nav{
+    display: flex;
+    gap: 50px;
+    
+}
+nav li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    
+
+}
+li a{
+    text-decoration: none;
+    color: black;
+}
+ .login{
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    background-color: transparent;
+
+ }
+ .fa-solid{
+    font-size: 20px;
+    font-weight: 700;
+
+ }
+ 
+ .header-all{
+    display: flex;
+    justify-content: space-between;
+    padding: 100px 120px;
+ }
+ 
+ .header-title{
+    font-size: 70px;
+    font-weight: 700;
+    color: #757575;
+
+ }
+ .des{
+    font-size: 30px;
+    font-weight: 300;
+    padding-top: 30px;
+ }
+ .btn-extra{
+    padding-top: 30px;
+ }
+ .extra-btn{
+    height: 40px;
+    width: 150px;
+    color: white;
+    background-color: purple;
+    border: 0;
+    border-radius: 50px;
+ }
+
+
+ .logo{
+    padding: 50px 220px;
+
+ }
+ hr{
+    
+ }
+ .logos{
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-column-gap: 10px;
+    padding: 40px 0px;
+ }
+  
+
+
+ .Collection{
+    padding: 100px 200px;
+ }
+
+ .Collection-title{
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    padding-bottom: 40px;
+ }
+
+ .Collection-all{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+ }
+
+.singel-product{
+    box-shadow: 0 1rem 3rem rgba(0,0,0,.175);
+    border-radius: 20px;
+    width: 250px;
+    padding: 20px 20px;
+    
+}
+ .singel-product img{
+    width: 250px;
+    border-radius: 10px;
+ }
+ .product-title{
+    font-size: 30px;
+    font-weight: 500;
+    padding-top: 20px;
+ }
+ .product-price{
+    font-size: 20px;
+    font-weight: 500;
+    padding-top: 20px;
+ }
+ .reating{
+    padding-top: 20px;
+ } 
+ .fa-star.reat{
+    color: goldenrod;
+    font-size: 20px;
+
+ }
+ .fa-star.helf{
+    color: #888888;
+    font-size: 20px;
+ }
+ .product-details{
+    color: #757575;
+    font-size: 20px;
+    padding-top: 20px;
+ }
+ .but{
+    text-align: right;
+    padding-top: 40px;
+    padding-right: 60px;
+    
+ }
+ .btn-see{
+    font-size: 20px;
+    color: deeppink;
+    border: 0;
+    background-color: transparent;
+ }
+
+
+ .last-details-product{
+    padding: 100px 200px;
+ }
+
+ .last{
+    display: flex;
+    gap: 140px;
+ }
+ .last-titles{
+    font-size: 30px;
+    font-weight: 700;
+    color: black;
+ }
+ .last-detail{
+    font-size: 20px;
+    color: #757575;
+    padding-top: 20px;
+ }
+ .last-btn{
+    height: 40px;
+    width: 140px;
+    font-size: 15px;
+    color: white;
+    background-color: deeppink;
+    border: 0;
+    text-align: center;
+ }
+ .last-button{
+    padding-top: 20px;
+ }
+ footer{
+    text-align: center;
+    background-color: black;
+ }
+ .footer-title{
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+    padding-top: 40px;
+ }
+ .copy{
+    color: white;
+    font-size: 20px;
+    padding-top: 30px;
+ }
+ .icon{
+    padding-top: 30px;
+    padding-bottom: 40px;
+    word-spacing: 30px;
+ }
+ .fa-brands{
+    color: white;
+    max-width: ;
+    
+ }
+
+
+
+
+
+
+
+
+
+ @media screen and (max-width:688px) {
+   nav{
+      flex-direction: column;
+      padding-left: 250px;
+   }
+   .logos{
+      grid-template-columns: repeat(4, 1fr);
+      grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    padding-left: 25%;
+   }
+  .Collection-all{
+      grid-template-columns: repeat(1, 1fr);
+  }
+  .last, .last, .courses{
+      flex-direction: column;
+  }
+.header-all, .last{
+   flex-direction: column-reverse;
+}
+.header-all, .logos{
+   
+   width: 500px;
+   align-items: center;
+}
+.singel-product img, .last-pic img{
+   width: 100%;
+  }
+  .singel-product, .last, footer{
+   width: 682px;
+  }
+  .Collection, .last-details-product, .logo{
+   padding: 100px 0px;
+  }
+  .last{
+   padding-left: 30px;
+  }
+}
+
+
+
+
+
